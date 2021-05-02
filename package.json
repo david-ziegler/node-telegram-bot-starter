@@ -2,9 +2,9 @@
   "name": "list-bot",
   "version": "0.0.1",
   "description": "project-description",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "scripts": {
-    "lint": "eslint src/*",
+    "lint": "eslint .",
     "start": "yarn install && yarn lint && ts-node index.ts",
     "watch": "yarn install && yarn lint && ts-node-dev index.ts"
   },
