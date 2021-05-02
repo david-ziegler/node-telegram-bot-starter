@@ -1,14 +1,14 @@
 {
-  "name": "project-name",
+  "name": "list-bot",
   "version": "0.0.1",
   "description": "project-description",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint src/*",
     "start": "yarn install && yarn lint && ts-node index.ts",
-    "watch": "yarn install && yarn lint && ts-node-dev index.ts",
+    "watch": "yarn install && yarn lint && ts-node-dev index.ts"
   },
-  "author": "Your Name",
+  "author": "David Ziegler",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
