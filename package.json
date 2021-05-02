@@ -7,7 +7,6 @@
     "lint": "eslint .",
     "start": "yarn install && yarn lint && ts-node index.ts",
     "watch": "yarn install && yarn lint && ts-node-dev index.ts",
-    "deploy": "./scripts/deploy.sh"
   },
   "author": "Your Name",
   "license": "ISC",
