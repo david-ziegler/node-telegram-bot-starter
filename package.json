@@ -9,7 +9,7 @@
     "watch": "yarn install && yarn lint && ts-node-dev index.ts"
   },
   "author": "",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.53.0",
     "node-telegram-keyboard-wrapper": "^3.0.0"
